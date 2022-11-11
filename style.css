@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ===================General=============================== */
+h1 {
+  font-family: "Courgette";
+  color: #8a4f0b;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  font-size: 2rem;
+}
+h2 {
+  font-family: "Courgette";
+  color: #8a4f0b;
+  margin-bottom: 2%;
+  font-size: 3vw;
+}
+h3{
+  font-size: 25px;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+main figcaption {
+  font-family: "Fuzzy Bubbles";
+  color: #bb7d36;
+}
+main p {
+  font-size: 2vw;
+  font-family: "Fuzzy Bubbles";
+  color: #bb7d36;
+}
+/* ===================header=============================== */
+header {
+  background-color: #f7d9a3;
+  width: 100%;
+}
+header img {
+  margin-top: 12px;
+}
+header div {
+  display: inline-block;
+  position: absolute;
+  margin: 43px;
+  padding-left: 1500px;
+  gap: 1%;
+  font-size: 23px;
+}
+header div a{
+  color: black;
+}
+/* ======================Intro================================= */
+.intro {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(pics/morocco.png);
+  font-size: 3vw;
+}
+.intro p:first-of-type {
+  font-family: "Fuzzy Bubbles";
+  font-size: 4rem;
+  margin-left: 4%;
+  color: #bb7d36;
+}
+.intro p:last-of-type {
+  color: #8a4f0b;
+  margin-left: 29%;
+  font-size: 4rem;
+  font-family: "Courgette";
+}
+.intro button {
+  background-color: yellow;
+  color: #8a4f0b;
+  font-family: "Fuzzy Bubbles";
+  font-weight: 900;
+  padding: 2% 4%;
+  border: none;
+  border-radius: 4px;
+  font-size: 2rem;
+  margin-left: 60%;
+}
+.loyalty_card button:hover, .intro button:hover{
+  background-color: red;
+  color: white;
+}
+.loyalty_card button:active, .intro button:active{
+  background-color: black;
+  color: white;
+}
+.opinion,
+.people,
+.venue,
+.team,
+.why,
+.loyalty_card,
+.services {
+  margin: 3% 3%;
+}
+/* ======================Services================================= */
+.services div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.services div figcaption {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+}
+/* ===================Loyalty card============================== */
+.loyalty_card div:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#p {
+  font-size: 30px;
+}
+.loyalty_card button {
+  background-color: rgb(255, 255, 0);
+  color: #8a4f0b;
+  font-weight: 800;
+  font-family: "Fuzzy Bubbles";
+  border: none;
+  border-radius: 4px;
+  font-size: 133%;
+  padding: 18px 50px 42px 50px;
+  margin: 30% 0px 0px -21%;
+  height: 50px;
+}
+#time{
+  background-color: #f7d9a3;
+  color: #8a4f0b;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 16px;
+  font-size: 134%;
+  margin-bottom: 20px;
+  margin-left: 350px;
+}
+.loyalty_card div div:last-of-type p {
+  margin-bottom: 98%;
+  font-size: 133%;
+}
+.vl {
+  border-left: 6px solid #f7d9a3;
+  height: 82px;
+  margin-left: 450px;
+  margin-bottom: 6%;
+}
+/* ===================Why Insolitours============================== */
+.why figure img {
+  width: 214px;
+  height: 214px;
+}
+.why div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.why div figcaption {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 133%;
+}
+/* ======================team====================== */
+.team div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+.team div figcaption {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 85%;
+}
+.team div figcaption p:last-of-type {
+  opacity: 0.6;
+}
+/* ===================Venue================== */
+.venue div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-top: 2%;
+}
+.venue div img{
+  width: 48%;
+}
+/* =================people=========================== */
+.people div {
+  display: flex;
+  margin-right: 20px;
+  width: 98%;
+}
+#id {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7d9a3;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 2%;
+}
+#id img {
+  height: 70%;
+  margin-top: 10px;
+}
+#id div p {
+  margin-top: 35px;
+  margin-left: 6%;
+}
+#id p {
+  margin-bottom: 15px;
+  font-size: 120%;
+}
+/* =================people=========================== */
+.opinion input,
+.opinion button {
+  border: 2px solid #8a4f0b;
+  height: 40px;
+  border-radius: 3px;
+  width: 97%;
+  font-family: "Fuzzy Bubbles";
+  color: #bb7d36;
+  font-size: 111%;
+}
+.opinion input[type="text"] {
+  padding-bottom: 90px;
+  text-align: start;
+}
+.opinion div {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.opinion button {
+  background-color: #f7d9a3;
+}
+/* ========= footer================================*/
+footer {
+  background-color: #f7d9a3;
+  padding: 1%;
+}
+footer p {
+  margin-left: 3%;
+}
+footer p:last-of-type {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 768px) and (min-width: 430px) {
+  h2 {
+    font-size: 280%;
+  }
+  .intro p{
+    font-size: smaller;
+  }
+
+  .services p {
+    font-size: 120%;
+  }
+  .services div figure {
+    width: 50%;
+  }
+  .services div figure img {
+    width: 80%;
+  }
+  .services div figure figcaption, .why div figure figcaption, .team div figure figcaption {
+    font-size: 100%;
+    text-align: start;
+    padding-bottom: 5%;
+  }
+  #p {
+    font-size: 150%;
+  }
+  .loyalty_card div button {
+    display: block;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 150px;
+    margin-top: 0;
+    position: absolute;
+    top: 270%;
+  }
+  #time{
+    margin-left: 5px;
+  }
+  .time{
+    margin-top: 100px;
+  }
+  .loyalty_card div div:last-child{
+    margin-top: 100px;
+  }
+  .vl{
+    margin-left: 90px;
+  }
+  .loyalty_card div div:last-of-type p{
+    margin-bottom: 82%;
+  }
+  .why p {
+    font-size: 120%;
+  }
+  .why div figure {
+    width: 50%;
+  }
+  .team p {
+    font-size: 120%;
+  }
+  .team div figure {
+    width: 50%;
+  }
+  .team div figure img {
+    width: 80%;
+  }
+    .venue p {
+    font-size: 120%;
+  }
+  .venue div img{
+    margin-left: 25px;
+    width: 90%;
+  }
+  .people div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+}
